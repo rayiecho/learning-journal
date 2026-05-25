@@ -40,9 +40,8 @@
 - No `/` at start = relative path (depends where you are)
 - Hidden files start with `.`
 
-## search
--`grep\wordfile` searcch for word in a file
+## Search
+- `grep "word" file` — search for word in a file
 - `grep -i "word" file` — case insensitive search
 - `grep -n "word" file` — show line numbers
 - `grep -v "word" file` — lines WITHOUT the word
-- `grep -r "word" .` — search all files recursively
