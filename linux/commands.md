@@ -86,3 +86,10 @@ chmod 700  #rwx --- --- (prvate)
 # 5 = r-x (4+1)
 # 4 = r 
 
+#Processes
+ps see            #process in the current terminal
+ps aux            #see all processes in teh all system
+top               #live processor monitor
+kill PID          #stop a process
+kilL 9 PID        #force stop a frozen process
+sleep 100 &       #run a process in the background
