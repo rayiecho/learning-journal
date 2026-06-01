@@ -44,4 +44,30 @@
 - `grep "word" file` — search for word in a file
 - `grep -i "word" file` — case insensitive search
 - `grep -n "word" file` — show line numbers
-- `grep -v "word" file` — lines WITHOUT the word
+- `grep -v "word" file` — lines WITHOUT th
+
+
+# File Operations
+cp file.txt backup.txt          # copy a file
+cp -r folder/ backup/           # copy a folder
+mv old.txt new.txt              # rename a file
+mv file.txt ../otherfolder/     # move a file up one level
+rm file.txt                     # delete a file
+rm -r folder/                   # delete a folder
+mkdir foldername                # create a folder
+mkdir -p a/b/c                  # create nested folders
+touch file.txt                  # create empty file
+
+# Viewing Files
+less file.txt                   # scroll through a file
+head file.txt                   # first 10 lines
+tail file.txt                   # last 10 lines
+head -1 file.txt                # first 1 line
+tail -1 file.txt                # last 1 line
+
+# Finding Things
+find . -name "*.txt"            # find by name
+find . -type f -name "*.txt"    # find files only
+find . -type d -name "myfolder" # find directories only
+find . -maxdepth 1 -name "*.txt" # find without going deep
+find . -size +1M                # find files bigger than 1MB
