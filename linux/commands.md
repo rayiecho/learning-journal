@@ -71,3 +71,18 @@ find . -type f -name "*.txt"    # find files only
 find . -type d -name "myfolder" # find directories only
 find . -maxdepth 1 -name "*.txt" # find without going deep
 find . -size +1M                # find files bigger than 1MB
+# Permissions
+ls -l     see permisions
+chmod +x add execution
+chmod -x remove execution
+chmod 644  # rw- r-- r-- (files)
+chmod 755  # rwx r-x r-x (scripts/folders)
+chmod 700  #rwx --- --- (prvate)
+
+#number permisions
+# r=4 w=2 x=1
+# 7 = rwx (4+2+1)
+# 6 = rw- (4+2)
+# 5 = r-x (4+1)
+# 4 = r 
+
