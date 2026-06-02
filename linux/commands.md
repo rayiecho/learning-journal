@@ -87,7 +87,7 @@ chmod 700  #rwx --- --- (prvate)
 # 4 = r 
 
 #Processes
-ps see            #process in the current terminal
+ps                #see process in the current terminal
 ps aux            #see all processes in teh all system
 top               #live processor monitor
 kill PID          #stop a process
