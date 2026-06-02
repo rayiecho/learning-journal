@@ -17,7 +17,7 @@ A living document of everything I am learning as a Year 1 Software Engineering s
 - [x] Linux navigation and file operations
 - [x ] Linux permissions
 - [x ] Linux processes
-- [ ] Shell scripting
+- [x] Shell scripting
 - [ ] Git basics
 - [ ] Git branching and collaboration
 
