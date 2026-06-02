@@ -47,7 +47,7 @@
 - `grep -v "word" file` — lines WITHOUT th
 
 
-# File Operations
+## File Operations
 cp file.txt backup.txt          # copy a file
 cp -r folder/ backup/           # copy a folder
 mv old.txt new.txt              # rename a file
@@ -58,20 +58,20 @@ mkdir foldername                # create a folder
 mkdir -p a/b/c                  # create nested folders
 touch file.txt                  # create empty file
 
-# Viewing Files
+## Viewing Files
 less file.txt                   # scroll through a file
 head file.txt                   # first 10 lines
 tail file.txt                   # last 10 lines
 head -1 file.txt                # first 1 line
 tail -1 file.txt                # last 1 line
 
-# Finding Things
+## Finding Things
 find . -name "*.txt"            # find by name
 find . -type f -name "*.txt"    # find files only
 find . -type d -name "myfolder" # find directories only
 find . -maxdepth 1 -name "*.txt" # find without going deep
 find . -size +1M                # find files bigger than 1MB
-# Permissions
+## Permissions
 ls -l     see permisions
 chmod +x add execution
 chmod -x remove execution
@@ -86,10 +86,25 @@ chmod 700  #rwx --- --- (prvate)
 # 5 = r-x (4+1)
 # 4 = r 
 
-#Processes
+## Processes
 ps                #see process in the current terminal
 ps aux            #see all processes in teh all system
 top               #live processor monitor
 kill PID          #stop a process
 kilL 9 PID        #force stop a frozen process
 sleep 100 &       #run a process in the background
+
+## Shell scripting
+#!/bin/bash    #Shebang always first lin.
+NAME="Regan"   #Variable no spaces around =e
+echo $NAME     #use variable with $
+$(command)     #command substitution
+if [ "$NAME" = "Regan" ];  then   #if statement
+   echo Welcome
+else
+   echo Who are you
+fi 
+for i in {1..10}               # for loop
+do 
+   echo $i
+Done
