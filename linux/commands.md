@@ -108,3 +108,17 @@ for i in {1..10}               # for loop
 do 
    echo $i
 Done
+
+##text processing
+grep "word" file         #search for word in a file.
+grep -i "word" file      #ignore case
+grep -n "word" file      #show exact lines too
+grep -v  "word" file     #show lines without that word
+grep -c "word" file      #count matches
+
+sed 's/old/new/' file       #find replace preview
+sed -i 's/old/new/' file    #find, replace and save 
+
+awk '{print $1}' file            #print first column
+aw '{print $1, $4}' file         #print two columns
+awk '/word/{print $1, $2}' file  #filter then print
