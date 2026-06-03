@@ -122,3 +122,11 @@ sed -i 's/old/new/' file    #find, replace and save
 awk '{print $1}' file            #print first column
 aw '{print $1, $4}' file         #print two columns
 awk '/word/{print $1, $2}' file  #filter then print
+
+##Package Management
+Sudo apt updates              #refresh package list, should be run before actions
+sudo apt install packagename  #install software
+sudo apt remove packagename   #remove software
+sudo apt upgrade              #update all softwares
+sudo apt auto remove          #remove unused packages
+apt search "keyword"          #search for packages
