@@ -15,8 +15,8 @@ A living document of everything I am learning as a Year 1 Software Engineering s
 ## Learning Progress
 
 - [x] Linux navigation and file operations
-- [x ] Linux permissions
-- [x ] Linux processes
+- [x] Linux permissions
+- [x] Linux processes
 - [x] Shell scripting
 - [x] Text processing
 - [ ] Git basics
