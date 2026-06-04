@@ -166,3 +166,14 @@ ssh user@server             #connect to a remote server
 ssh-keygen -t rsa b 4096    #generate ssh key pair
 cat~/.ssh/id_ed25519        #view your public key
 ls~/.ssh/                   #list your keys                   
+
+
+##Cron jobs
+crontab -e                  #edit your cron jobs
+crontab -l                  #list all your cron jobs
+crontab -r                  #remove all your cron jobs
+
+#Cron syntax                #second minute hour daily weekly monthly
+******                      #every minute
+09***                       #everyday at nine
+*/5****                     #every 5 minutes
