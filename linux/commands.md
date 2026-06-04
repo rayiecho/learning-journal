@@ -130,3 +130,33 @@ sudo apt remove packagename   #remove software
 sudo apt upgrade              #update all softwares
 sudo apt auto remove          #remove unused packages
 apt search "keyword"          #search for packages
+
+nano commands
+ctrl o                       #save
+ctrl x                       #exit
+ctrl w                       #search
+ctrl k                       #cut a line
+ctrl u                       #paste a line
+ctrl w, ctrl r               #search, replace
+ctrl G                       #help
+alt u                        #undo
+
+##vi commands
+vi filename                  #open a file
+i                            #enter insert mode
+ese                          #exit insert mode
+:q                           #quit
+:q!                          #quit without saving
+:w                           #save
+:wq                          #save and quit
+dd                           #delete
+yy                           #copy
+p                            #paste 
+
+
+##Networking
+ping google.com -c 4        #test connection, send 4 packets
+ip addr                     #see your ip address
+curl ifconfig.me            #see your public ip
+traceroute google.com       #see every hop to a server
+                   
