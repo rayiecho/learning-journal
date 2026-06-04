@@ -159,4 +159,10 @@ ping google.com -c 4        #test connection, send 4 packets
 ip addr                     #see your ip address
 curl ifconfig.me            #see your public ip
 traceroute google.com       #see every hop to a server
-                   
+
+
+##Secure Shell
+ssh user@server             #connect to a remote server
+ssh-keygen -t rsa b 4096    #generate ssh key pair
+cat~/.ssh/id_ed25519        #view your public key
+ls~/.ssh/                   #list your keys                   

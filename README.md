@@ -21,6 +21,7 @@ A living document of everything I am learning as a Year 1 Software Engineering s
 - [x] Text processing
 - [x] Package Management
 - [x] Networking
+- [x] Secure Shell
 - [ ] Git basics
 - [ ] Git branching and collaboration
 
