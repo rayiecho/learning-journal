@@ -25,8 +25,8 @@ A living document of everything I am learning as a Year 1 Software Engineering s
 - [x] Cron jobs
 - [x] System Adminstration
 - [x] Filesystem hierachy
-- [ ] Git basics
-- [ ] Git branching and collaboration
+- [x] Git basics
+- [x] Git branching and collaboration
 
 ## About Me
 
