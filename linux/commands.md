@@ -177,3 +177,25 @@ crontab -r                  #remove all your cron jobs
 ******                      #every minute
 09***                       #everyday at nine
 */5****                     #every 5 minutes
+
+##System Administration
+df -h                       #disk space usage
+du -sh ~                    #size of your home folder
+free -h                     #free RAM
+uptime                      #how long your system has been in usage
+who                         #who is logged in
+last                        #history of login and reboot
+
+##Filesystem hierachy 
+/bin                        #essential commands
+/etc                        #configaration files
+/home                       #user home directories
+/log/var                    #system logs
+/tmp                        #temporary files
+/usr                        #installed programs
+/dev                        #devices
+/mnt                        #mounted devices
+
+##logs
+sudo tail -20 /var/log/auth.log  #recent login attempts
+sudo tail -f  /var/log/auth.log  #watch real time log
